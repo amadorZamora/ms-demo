@@ -49,7 +49,7 @@
             <optional>true</optional>
         </dependency>
 
-     <!-- Swagger UI-->
+        <!-- Swagger UI-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -61,7 +61,23 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.7.0</version>
         </dependency>
-     <!-- Swagger UI End-->
+        <!-- Swagger UI End-->
+
+        <!-- Mapper Utils-->
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>0.7.5</version>
+        </dependency>
+        <!-- Mapper Utils-->
+
+        <!-- Log4J -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <!-- Log4J -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -73,6 +89,10 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
         </dependency>
     </dependencies>
 

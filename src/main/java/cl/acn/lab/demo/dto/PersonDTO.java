@@ -1,4 +1,4 @@
-package cl.acn.lab.demo.dao;
+package cl.acn.lab.demo.dto;
 
 import lombok.Data;
 
@@ -6,14 +6,12 @@ import lombok.Data;
  * @author ACN-labs
  * Date: 09-08-20
  */
-
 @Data
-public class Person {
+public class PersonDTO {
 
-    private String id;
+    private Long id;
     private String name;
     private String firstName;
     private String lastName;
-
 
 }
