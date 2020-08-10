@@ -31,12 +31,12 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "ACN labs - ARCHETYPE REST API  (Editable)",
-                "This is an example API for the SALCOBRAND project (Editable)",
-                "API SALCO  (Editable)",
+                "ACN labs - ARCHETYPE REST API",
+                "This is an example API for the UTFSM class",
+                "API DEMO",
                 "Terms of service (Editable)",
                 new Contact("Amador Zamora Nuñez - Carlos Saez Del Canto", "www.accenture.com", "amador.zamora.nunez - c.saez.del.canto @accenture.com"),
-                "License of API  (Editable)", "API license URL  (Editable)", Collections.emptyList()
+                "License of API ", "API license URL  ", Collections.emptyList()
         );
     }
 
